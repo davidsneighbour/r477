@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 5,
+    "easing": "linear"
+  },
+  "clips": [
+    {
+      "name": "red-to-blue",
+      "from": "#ff0000",
+      "to": "#0000ff"
+    },
+    {
+      "name": "green-to-purple",
+      "from": "#00ff00",
+      "to": "#8000ff",
+      "duration": 8,
+      "easing": "ease-in-out"
+    },
+    {
+      "name": "rgb-cycle",
+      "colours": [
+        "#ff0000",
+        "#00ff00",
+        "#0000ff",
+        "#ff0000"
+      ],
+      "duration": 12
+    }
+  ]
+}
