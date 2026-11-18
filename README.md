@@ -1,4 +1,4 @@
-# r477
+# ur477
 
 Scriptable generative video art. Version 0.1 generates **uniform full-frame RGB colour transitions** as MP4 files. A clip can change between two colours or travel through multiple stops. Rendering is separated from export so future versions can add gradients, moving shades, shaders and glitches.
 

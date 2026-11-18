@@ -6,7 +6,7 @@ import { renderFrames, validateConfig } from "./core.ts";
 
 function usage(): string {
   return [
-    "r477 — generate uniform RGB transition videos",
+    "ur477 — generate uniform RGB transition videos",
     "",
     "Usage: node src/cli.ts --config <file> [--output <directory>]",
     "",
@@ -80,6 +80,6 @@ function main(): void {
 try {
   main();
 } catch (error) {
-  console.error("r477:", error instanceof Error ? error.message : String(error));
+  console.error("ur477:", error instanceof Error ? error.message : String(error));
   process.exitCode = 1;
 }
